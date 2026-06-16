@@ -1,0 +1,478 @@
+{
+  "usuarios": {
+    "gustavo": {
+      "pass": "1234",
+      "rol": "propietario",
+      "nombre": "Gustavo Cubillos"
+    },
+    "mec1": {
+      "pass": "1234",
+      "rol": "mecanico",
+      "nombre": "Carlos Méndez"
+    },
+    "mec2": {
+      "pass": "1234",
+      "rol": "mecanico",
+      "nombre": "Pedro Sánchez"
+    },
+    "mec3": {
+      "pass": "1234",
+      "rol": "mecanico",
+      "nombre": "Luis Torres"
+    }
+  },
+  "repuestos": [
+    {
+      "id": 1,
+      "nombre": "Amortiguador delantero",
+      "stock": 12,
+      "minimo": 2,
+      "precio": 85000,
+      "categoria": "Suspensión"
+    },
+    {
+      "id": 2,
+      "nombre": "Rótula de dirección",
+      "stock": 6,
+      "minimo": 3,
+      "precio": 35000,
+      "categoria": "Dirección"
+    },
+    {
+      "id": 3,
+      "nombre": "Pastillas de freno",
+      "stock": 1,
+      "minimo": 4,
+      "precio": 45000,
+      "categoria": "Frenos"
+    },
+    {
+      "id": 4,
+      "nombre": "Rodamiento de rueda",
+      "stock": 9,
+      "minimo": 2,
+      "precio": 10000,
+      "categoria": "Suspensión"
+    },
+    {
+      "id": 5,
+      "nombre": "Aceite motor 20W50 1L",
+      "stock": 12,
+      "minimo": 5,
+      "precio": 18000,
+      "categoria": "Lubricantes"
+    },
+    {
+      "id": 6,
+      "nombre": "Buje de suspensión",
+      "stock": 4,
+      "minimo": 2,
+      "precio": 20000,
+      "categoria": "Suspensión"
+    },
+    {
+      "id": 7,
+      "nombre": "Terminal de dirección",
+      "stock": 7,
+      "minimo": 3,
+      "precio": 32000,
+      "categoria": "Dirección"
+    },
+    {
+      "id": 8,
+      "nombre": "Filtro de aceite",
+      "stock": 0,
+      "minimo": 3,
+      "precio": 12000,
+      "categoria": "Filtros"
+    },
+    {
+      "id": 9,
+      "nombre": "Disco de freno",
+      "stock": 2,
+      "minimo": 2,
+      "precio": 75000,
+      "categoria": "Frenos"
+    },
+    {
+      "id": 10,
+      "nombre": "Resorte espiral delan.",
+      "stock": 3,
+      "minimo": 1,
+      "precio": 95000,
+      "categoria": "Suspensión"
+    }
+  ],
+  "herramientas": [
+    {
+      "id": 1,
+      "nombre": "Llave de tubo 17mm",
+      "estado": "Disponible",
+      "asignada_a": null,
+      "hora_retiro": null
+    },
+    {
+      "id": 2,
+      "nombre": "Prensa hidráulica",
+      "estado": "En uso",
+      "asignada_a": "Santiago",
+      "hora_retiro": "19:16"
+    },
+    {
+      "id": 3,
+      "nombre": "Soldadora eléctrica",
+      "estado": "Disponible",
+      "asignada_a": null,
+      "hora_retiro": null
+    },
+    {
+      "id": 4,
+      "nombre": "Gato hidráulico 3T",
+      "estado": "En uso",
+      "asignada_a": "Gustavo Cubillos",
+      "hora_retiro": "17:43"
+    },
+    {
+      "id": 5,
+      "nombre": "Torquímetro",
+      "estado": "Disponible",
+      "asignada_a": null,
+      "hora_retiro": null
+    },
+    {
+      "id": 6,
+      "nombre": "Extractor de rótulas",
+      "estado": "Disponible",
+      "asignada_a": null,
+      "hora_retiro": null
+    },
+    {
+      "id": 7,
+      "nombre": "Compresor de resortes",
+      "estado": "Disponible",
+      "asignada_a": null,
+      "hora_retiro": null
+    },
+    {
+      "id": 8,
+      "nombre": "Multímetro",
+      "estado": "Disponible",
+      "asignada_a": null,
+      "hora_retiro": null
+    }
+  ],
+  "vehiculos": [
+    {
+      "placa": "TXA-123",
+      "marca": "Hyundai",
+      "modelo": "Accent",
+      "año": 2018,
+      "propietario": "Juan Rodríguez",
+      "tel": "3101234567"
+    },
+    {
+      "placa": "TXB-456",
+      "marca": "Chevrolet",
+      "modelo": "Spark",
+      "año": 2020,
+      "propietario": "María García",
+      "tel": "3209876543"
+    },
+    {
+      "placa": "TXC-789",
+      "marca": "Renault",
+      "modelo": "Logan",
+      "año": 2019,
+      "propietario": "Carlos López",
+      "tel": "3154567890"
+    }
+  ],
+  "historial": [
+    {
+      "placa": "TXA-123",
+      "fecha": "2026-04-10",
+      "trabajo": "Cambio amortiguadores delanteros",
+      "repuestos": "2x Amortiguador delantero",
+      "costo": 220000,
+      "mecanico": "Carlos Méndez"
+    },
+    {
+      "placa": "TXA-123",
+      "fecha": "2026-02-15",
+      "trabajo": "Alineación y balanceo",
+      "repuestos": "N/A",
+      "costo": 80000,
+      "mecanico": "Pedro Sánchez"
+    },
+    {
+      "placa": "TXB-456",
+      "fecha": "2026-03-20",
+      "trabajo": "Cambio pastillas de freno",
+      "repuestos": "1x Pastillas de freno",
+      "costo": 95000,
+      "mecanico": "Carlos Méndez"
+    },
+    {
+      "placa": "TXA-123",
+      "fecha": "2026-05-12",
+      "trabajo": "Revisión suspensión completa",
+      "repuestos": "N/A",
+      "costo": 0,
+      "mecanico": "Gustavo Cubillos"
+    }
+  ],
+  "tareas": [
+    {
+      "id": 1,
+      "placa": "TXA-123",
+      "trabajo": "Revisión suspensión completa",
+      "estado": "Finalizado",
+      "mecanico": "Carlos Méndez",
+      "prioridad": "Alta"
+    },
+    {
+      "id": 2,
+      "placa": "TXB-456",
+      "trabajo": "Cambio aceite y filtros",
+      "estado": "En proceso",
+      "mecanico": "Pedro Sánchez",
+      "prioridad": "Media"
+    },
+    {
+      "id": 3,
+      "placa": "TXC-789",
+      "trabajo": "Corrección dirección",
+      "estado": "Finalizado",
+      "mecanico": "Luis Torres",
+      "prioridad": "Alta"
+    },
+    {
+      "id": 4,
+      "placa": "TXA-123",
+      "trabajo": "Soldadura chasis",
+      "estado": "Pendiente",
+      "mecanico": "Carlos Méndez",
+      "prioridad": "Baja"
+    }
+  ],
+  "log": [
+    {
+      "hora": "2026-05-12 17:28:31",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 2"
+    },
+    {
+      "hora": "2026-05-12 17:28:40",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Tarea #1 → En proceso"
+    },
+    {
+      "hora": "2026-05-12 17:28:43",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Tarea #1 completada y guardada en historial"
+    },
+    {
+      "hora": "2026-05-12 17:28:45",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Prensa hidráulica"
+    },
+    {
+      "hora": "2026-05-12 17:36:35",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Llave de tubo 17mm"
+    },
+    {
+      "hora": "2026-05-12 17:36:36",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 1"
+    },
+    {
+      "hora": "2026-05-12 17:37:46",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Llave de tubo 17mm"
+    },
+    {
+      "hora": "2026-05-12 17:37:48",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 1"
+    },
+    {
+      "hora": "2026-05-12 17:40:10",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Llave de tubo 17mm"
+    },
+    {
+      "hora": "2026-05-12 17:40:13",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 1"
+    },
+    {
+      "hora": "2026-05-12 17:40:15",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 2"
+    },
+    {
+      "hora": "2026-05-12 17:40:17",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Prensa hidráulica"
+    },
+    {
+      "hora": "2026-05-12 17:40:19",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Llave de tubo 17mm"
+    },
+    {
+      "hora": "2026-05-12 17:40:21",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 1"
+    },
+    {
+      "hora": "2026-05-12 17:40:24",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 4"
+    },
+    {
+      "hora": "2026-05-12 17:40:27",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 2"
+    },
+    {
+      "hora": "2026-05-14 16:33:07",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Stock +5: Amortiguador delantero"
+    },
+    {
+      "hora": "2026-05-16 17:43:20",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Llave de tubo 17mm"
+    },
+    {
+      "hora": "2026-05-16 17:43:27",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Gato hidráulico 3T"
+    },
+    {
+      "hora": "2026-05-16 17:43:30",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 4"
+    },
+    {
+      "hora": "2026-05-16 17:43:40",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Prensa hidráulica"
+    },
+    {
+      "hora": "2026-05-16 17:43:44",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 2"
+    },
+    {
+      "hora": "2026-05-16 17:43:49",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 1"
+    },
+    {
+      "hora": "2026-05-16 17:43:52",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Gato hidráulico 3T"
+    },
+    {
+      "hora": "2026-05-16 17:47:08",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Prensa hidráulica"
+    },
+    {
+      "hora": "2026-05-16 17:58:25",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Stock +2: Amortiguador delantero"
+    },
+    {
+      "hora": "2026-05-16 18:00:21",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Egreso: Servicio $10,000"
+    },
+    {
+      "hora": "2026-05-16 18:00:30",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Ingreso: Ingreso reparación $20,000"
+    },
+    {
+      "hora": "2026-05-16 18:02:10",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Stock +3: Rodamiento de rueda"
+    },
+    {
+      "hora": "2026-05-16 18:03:03",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Stock +1: Amortiguador delantero"
+    },
+    {
+      "hora": "2026-05-16 18:59:44",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Llave de tubo 17mm por guillermo"
+    },
+    {
+      "hora": "2026-05-16 19:00:00",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 2"
+    },
+    {
+      "hora": "2026-05-16 19:16:08",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Retiro: Prensa hidráulica por Santiago"
+    },
+    {
+      "hora": "2026-05-16 19:16:17",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Devolución herramienta ID 1"
+    },
+    {
+      "hora": "2026-05-16 19:17:26",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Stock +1 (Precio $10000): Rodamiento de rueda"
+    },
+    {
+      "hora": "2026-05-16 20:08:17",
+      "usuario": "Gustavo Cubillos",
+      "accion": "Stock +1 (Precio $20000): Buje de suspensión"
+    }
+  ],
+  "transacciones": [
+    {
+      "tipo": "Ingreso",
+      "concepto": "Reparación TXA-123",
+      "monto": 220000,
+      "fecha": "2026-05-01"
+    },
+    {
+      "tipo": "Egreso",
+      "concepto": "Compra amortiguadores",
+      "monto": 170000,
+      "fecha": "2026-05-01"
+    },
+    {
+      "tipo": "Ingreso",
+      "concepto": "Cambio aceite TXB-456",
+      "monto": 65000,
+      "fecha": "2026-05-02"
+    },
+    {
+      "tipo": "Egreso",
+      "concepto": "Servicio",
+      "monto": 10000,
+      "fecha": "2026-05-16"
+    },
+    {
+      "tipo": "Ingreso",
+      "concepto": "Ingreso reparación",
+      "monto": 20000,
+      "fecha": "2026-05-16"
+    },
+    {
+      "tipo": "Egreso",
+      "concepto": "Compra repuesto: Buje de suspensión (1 uds)",
+      "monto": 20000,
+      "fecha": "2026-05-16"
+    }
+  ]
+}
